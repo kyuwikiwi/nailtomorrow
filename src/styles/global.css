@@ -1,0 +1,32 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/*모든 요소 기본 여백 제거*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*앱 전체 기본 설정*/
+body{
+    font-family: 'Pretendard', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    backgroud: #FFF9FA;
+    color: #5C4D4D;
+}
+
+/*버튼 폰트 통일*/
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/*링크 밑줄 제거*/
+a{
+    text-decoration:none;
+    color: inherit
+}
+
+/*스쿠롤바 숨김(모바일 느낌)*/
+::-webkit-scrollbar {
+    display: none;
+}
